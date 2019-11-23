@@ -1,0 +1,19 @@
+{
+  "name": "project_portfolio",
+  "version": "1.0.0",
+  "description": "Project 3 Portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Darrel Toledo",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "node-sass": "^4.13.0",
+    "sshpk": "^1.16.1"
+  }
+}
