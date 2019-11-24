@@ -1,18 +1,6 @@
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 62.5%;
-}
-
 #mySidenav a {
   position: absolute;
   left: -80px;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
   padding: 15px;
   width: 100px;
@@ -26,23 +14,22 @@ html {
   left: 0;
 }
 
-#about {
+#home {
   top: 20px;
-  background-color: #455a64;
+  background-color: $dark-grey;
 }
 
-#blog {
+#about {
   top: 80px;
-  background-color: #2196f3;
+  background-color: $dark-grey;
 }
 
 #projects {
   top: 140px;
-  background-color: #f44336;
+  background-color: $dark-grey;
 }
 
 #contact {
   top: 200px;
-  background-color: #555;
+  background-color: $dark-gray5;
 }
-/*# sourceMappingURL=main.min.css.map */

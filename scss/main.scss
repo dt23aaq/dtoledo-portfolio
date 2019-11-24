@@ -1,11 +1,18 @@
-@import "variables";
-@import "typography";
+@import "./utils/variables";
+@import "./utils/functions";
+@import "./utils/mixins";
+@import "./utils/extensions";
 
-@import "base";
-@import "normalize";
+@import "./base/base";
+@import "./base/typography";
 
-@import "mixin";
-@import "footer";
+@import "./components/buttons";
 
-@import "work";
-@import "navigation";
+@import "./layout/header";
+@import "./layout/nav";
+@import "./layout/container";
+@import "./layout/form";
+
+@import "./pages/contact";
+@import "./pages/about";
+@import "./pages/project";
