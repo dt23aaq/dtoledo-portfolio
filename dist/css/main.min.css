@@ -6,58 +6,9 @@
 }
 
 body {
-  background: #353535;
-  color: #c4c4c4;
-  font-family: "Raleway", sans-serif;
-  font-size: 1.2rem;
-  line-height: 1.45;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  background: #ffffff;
 }
 
-/* Navbar*/
-.navbar {
-  width: 100%;
-  background-color: #f96855;
-  overflow: auto;
-}
-
-.navbar a {
-  float: right;
-  text-align: center;
-  padding: 12px;
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 17px;
-  overflow: hidden;
-  cursor: pointer;
-  position: relative;
-  -webkit-transform: transform 420ms, #223843 150ms;
-          transform: transform 420ms, #223843 150ms;
-}
-
-.navbar a:hover {
-  background-color: #353535;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  background-color: #223843;
-}
-
-.active {
-  background-color: #4caf50;
-}
-
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-  }
-}
-
-/* end navbar */
 h1,
 h2,
 p {
@@ -66,9 +17,11 @@ p {
 }
 
 h1 {
-  color: #f96855;
+  color: #03afc2;
   line-height: 1;
   font-size: 3.125rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 h1 span {
@@ -76,7 +29,7 @@ h1 span {
 }
 
 h2 {
-  color: #f96855;
+  color: #03afc2;
 }
 
 .intro {
@@ -89,6 +42,16 @@ h2 {
       -ms-flex: 1 1 80%;
           flex: 1 1 80%;
   min-height: 100vh;
+}
+
+.btn.btn-border {
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  color: #ffffff;
+  background: transparent;
+}
+
+img {
+  max-width: 100%;
 }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -474,11 +437,11 @@ footer {
   background: #223843;
   padding: 5em 5em;
   text-align: center;
-  width: auto;
+  width: 100%;
 }
 
 .social-icons {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   max-width: 15em;
   display: -webkit-box;
@@ -516,18 +479,15 @@ footer {
 }
 
 .portfolio-item {
-  background: #f96855;
-  color: #c4c4c4;
-  font-weight: 700;
+  background: #03afc2;
+  color: #e8e9eb;
+  font-weight: 900;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   font-size: 1.5em;
   background-size: cover;
   background-position: top left;
@@ -574,7 +534,7 @@ footer {
 .two::before {
   content: "";
   display: block;
-  background: #353535;
+  background: #000;
   opacity: 0.8;
   position: absolute;
   top: 0;
@@ -590,46 +550,54 @@ footer {
   opacity: 0.2;
 }
 
-.sidebar {
-  background: #4f4f4f;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 20%;
-          flex: 1 1 20%;
-  min-width: 300px;
-  padding: 3em;
-}
-
-.logo {
-  text-transform: uppercase;
-  margin-bottom: 2em;
-}
-
-@media (min-width: 1500px) {
-  .logo {
-    margin-bottom: 5em;
-  }
-}
-
-.logo span {
-  font-weight: 700;
-}
-
-.nav-item {
-  color: #737373;
+#mySidenav a {
+  position: absolute;
+  /* Position them relative to the browser window */
+  left: -80px;
+  /* Position them outside of the screen */
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  /* Add transition on hover */
+  padding: 15px;
+  /* 15px padding */
+  width: 100px;
+  /* Set a specific width */
   text-decoration: none;
-  font-size: 1.7rem;
-  display: inline-block;
-  margin-right: 2em;
+  /* Remove underline */
+  font-size: 20px;
+  /* Increase font size */
+  color: white;
+  /* White text color */
+  border-radius: 0 5px 5px 0;
+  /* Rounded corners on the top right and bottom right side */
 }
 
-@media (min-width: 1500px) {
-  .nav-item {
-    display: block;
-    margin: 7vh 0;
-  }
+#mySidenav a:hover {
+  left: 0;
+  /* On mouse-over, make the elements appear as they should */
 }
 
-.nav-item.active {
-  color: #c4c4c4;
+/* The about link: 20px from the top with a green background */
+#about {
+  top: 20px;
+  background-color: #4caf50;
+}
+
+#blog {
+  top: 80px;
+  background-color: #2196f3;
+  /* Blue */
+}
+
+#projects {
+  top: 140px;
+  background-color: #f44336;
+  /* Red */
+}
+
+#contact {
+  top: 200px;
+  background-color: #555;
+  /* Light Black */
 }
 /*# sourceMappingURL=main.min.css.map */
