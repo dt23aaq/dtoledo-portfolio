@@ -14,6 +14,15 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "node-sass": "^4.13.0",
+    "sass": "^1.23.7",
     "sshpk": "^1.16.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CadetCoder/Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CadetCoder/Portfolio/issues"
+  },
+  "homepage": "https://github.com/CadetCoder/Portfolio#readme"
 }
