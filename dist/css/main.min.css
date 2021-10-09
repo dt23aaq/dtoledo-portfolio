@@ -17,3 +17,7 @@
   --transition: 0.3s;
 }
 /* Variables end */
+
+html {
+  scroll-behavior: smooth;
+}
