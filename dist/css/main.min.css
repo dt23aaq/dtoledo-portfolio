@@ -41,3 +41,7 @@ a {
 a:hover {
   color: var(--secondary-color);
 }
+
+body {
+  font-family: var(--font-family);
+}
