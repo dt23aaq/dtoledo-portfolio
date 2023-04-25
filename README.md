@@ -1,1 +1,1 @@
-This is my project 3 portfolio
+Principles of Technology 2 Assignment
