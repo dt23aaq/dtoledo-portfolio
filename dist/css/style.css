@@ -242,7 +242,7 @@ p span {
 
 /* Hero */
 #hero {
-  background-image: url("./dist/img/hero-cover.jpeg") !important;
+  background-image: url("/dist/img/hero-cover.jpeg") !important;
   background-size: cover;
   background-position: bottom center;
   position: relative;
