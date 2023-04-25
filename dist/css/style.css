@@ -88,6 +88,12 @@ p span {
 
 /* Header Section*/
 
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 #header {
   position: fixed;
   z-index: 1000;
@@ -242,7 +248,7 @@ p span {
 
 /* Hero */
 #hero {
-  background-image: url("./dist/img/hero-cover.jpeg") !important;
+  /* background-image: url("./dist/img/hero-cover.jpeg") !important; */
   background-size: cover;
   background-position: bottom center;
   position: relative;

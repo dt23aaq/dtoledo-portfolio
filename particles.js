@@ -1,34 +1,8 @@
-const hamburger = document.querySelector('.header .nav--bar .nav--list .hamburger');
-const mobile_menu = document.querySelector('.header .nav--bar .nav--list ul');
-const menu_item = document.querySelector('.header .nav--bar .nav--list ul li a');
-const header = document.querySelector('.header.container');
-
-hamburger.addEventListener('click',()=> {
-  hamburger.classList.toggle('active');
-  mobile_menu.classList.toggle('active');
-});
-
-document.addEventListener('scroll', () => {
-	var scroll_position = window.scrollY;
-	if (scroll_position > 250) {
-		header.style.backgroundColor = '#29323c';
-	} else {
-		header.style.backgroundColor = 'transparent';
-	}
-});
-
-menu_item.forEach(item => {
-  item.addEventListener('click', () => {
-    hamburger.classList.toggle('active');
-    mobile_menu.classList.toggle('active');
-  })
-})
-
 // particlesJS("particles-js", {
 //   "particles": {
 //     "number": {
 //       "value": 355,
-//       "density": {z
+//       "density": {
 //         "enable": true,
 //         "value_area": 789.1476416322727
 //       }
