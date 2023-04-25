@@ -242,12 +242,13 @@ p span {
 
 /* Hero */
 #hero {
-  background-image: url("./dist/img/hero-cover.jpeg");
+  background-image: url("./dist/img/hero-cover.jpeg") !important;
   background-size: cover;
   background-position: bottom center;
   position: relative;
   z-index: 1;
 }
+
 #hero .hero {
   max-width: 1200px;
   margin: 0 auto;
