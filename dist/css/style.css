@@ -307,8 +307,8 @@ p span {
 }
 /* End Hero */
 
-/* Services Section */
-#services .services {
+/* Learning Journey Section */
+#journeys .journeys {
   flex-direction: column;
   text-align: center;
   max-width: 1500px;
@@ -316,19 +316,19 @@ p span {
   padding: 100px 0;
 }
 
-#services .service--top {
+#Journeys .journey--top {
   max-width: 500px;
   width: 0 auto;
 }
 
-#services .service--bottom {
+#journeys .journey--bottom {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 50px;
 }
-#services .service--item {
+#journeys .journey--item {
   flex-basis: 80%;
   display: flex;
   align-items: flex-start;
@@ -343,7 +343,7 @@ p span {
   z-index: 1;
   overflow: hidden;
 }
-#services .service--item::after {
+#journeys .journey--item::after {
   content: '';
   position: absolute;
   left: 0;
@@ -354,12 +354,12 @@ p span {
   opacity: .9;
   z-index: -1;
 }
-#services .service--bottom .icon {
+#journeys .journey--bottom .icon {
   height: 80px;
   width: 80px;
   margin-bottom: 20px;
 }
-#services .service--item h2 {
+#journeys .journey--item h2 {
   text-decoration: underline;
   text-underline-position: under;
   text-decoration-color: crimson;
@@ -369,12 +369,12 @@ p span {
   text-transform: uppercase;
 }
 
-#services .service--item p{
+#journeys .journey--item p{
   color: white;
   text-align: left;
 }
 
-/* End Services Section */
+/* End Learning Journeys Section */
 
 /* Projects Section */
 #projects .projects {
@@ -681,7 +681,7 @@ p span {
   /* End Hero */
 
   /* Technologies Section */
-  #services .service--bottom .service--item{
+  #journeys .journey--bottom .journey--item{
     flex-basis: 45%;
     margin: 2.5%;
   }
@@ -803,7 +803,7 @@ p span {
 
   }
 
-  #services .service--bottom .service--item {
+  #journeys .journey--bottom .journey--item {
     flex-basis: 22%;
     margin: 1.5%;
   }
