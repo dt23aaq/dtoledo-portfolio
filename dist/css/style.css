@@ -242,7 +242,7 @@ p span {
 
 /* Hero */
 #hero {
-  background-image: url(./dist/img/hero-cover.jpeg);
+  background-image: url(./dist/img/hero-cover.png);
   background-size: cover;
   background-position: bottom center;
   position: relative;
@@ -541,7 +541,7 @@ p span {
 }
 #contact .contact--item {
   width: 80%;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
   border-radius: 10px;
   padding: 30px;
