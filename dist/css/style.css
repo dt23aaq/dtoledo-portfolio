@@ -242,7 +242,7 @@ p span {
 
 /* Hero */
 #hero {
-  background-image: url("/dist/img/hero-cover.jpeg") !important;
+  background-image: url("/dist/img/hero-cover.jpeg");
   background-size: cover;
   background-position: bottom center;
   position: relative;
@@ -376,19 +376,19 @@ p span {
 
 /* End Learning Journeys Section */
 
-/* Projects Section */
-#projects .projects {
+/* Blog Section */
+#Blog .Blog {
   flex-direction: column;
   max-width: 1200px;
   margin: 0 auto;
   padding: 100px 0;
 }
 
-#projects .projects--header h1 {
+#Blog .Blog--header h1 {
   margin-bottom: 50px;
 }
 
-#projects .all--projects {
+/* #projects .all--projects {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -404,9 +404,9 @@ p span {
   margin: 20px auto;
   overflow: hidden;
   border-radius: 10px;
-}
+} */
 
-#projects .project--info {
+/* #projects .project--info {
   padding: 30px;
   flex-basis: 50%;
   background-color: white;
@@ -462,8 +462,8 @@ p span {
   height: 100%;
   width: 100%;
   /* background-image: linear-gradient(60deg, #29323c 0%, #485563 100%); */
-  opacity: .7;
-}
+  /* opacity: .7; */
+/* }
 
 #projects .project--img img {
   transition: .3s ease transform;
@@ -471,7 +471,7 @@ p span {
 
 #projects .project--item:hover .project--img img {
   transform: scale(1.1);
-}
+} */ */
 
 /* End Projects Section */
 
@@ -529,6 +529,21 @@ p span {
 }
 
 /* End About Section */
+
+/* Blog Section */
+#blog .blog {
+  flex-direction: column;
+  text-align: left;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px;
+}
+
+.blog p {
+  font-size: 2rem;
+}
+
+/* End of Blog Section*/
 
 /* Contact Section */
 #contact .contact {
@@ -688,7 +703,7 @@ p span {
   /* End Technologies Section */
 
   /* Projects */
-  #projects .project--item{
+  /* #projects .project--item{
     flex-direction: row;
   }
   #projects .project--item:nth-child(even){
@@ -707,7 +722,7 @@ p span {
     height: 100%;
     padding: 18px 25px;
   }
-  /* End Projects */
+  End Projects */
 
   /* About */
   #about .about {
