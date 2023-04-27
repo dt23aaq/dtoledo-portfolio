@@ -1,6 +1,6 @@
 Principles of Technology 2 Assignment
 
-Personal Web portfolio
+Personal Web portfolio.
 
 Preview Demo: https://dtoledo-portfolio.vercel.app/
 
